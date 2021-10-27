@@ -1,0 +1,131 @@
+    @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+     :root {
+        --main-bg-color: #2874f0;
+        ;
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .slider {
+        width: 80nw;
+        margin: 12px auto;
+        overflow: hidden;
+    }
+    
+    header {
+        height: 8vh;
+        background-color: var(--main-bg-color);
+        /* background-color: black; */
+        font-family: 'Scheherazade New', serif;
+        /* border: 2px solid red; */
+    }
+    
+    nav {
+        display: flex;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        width: 100px;
+        padding: 0 10px;
+    }
+    
+    nav ul {
+        height: 10vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    nav ul li {
+        list-style: none;
+        padding: 0 20px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+        color: rgba(0, 0, 0, 0.959);
+        font-weight: bolder;
+    }
+    
+    .search {
+        display: flex;
+        align-items: center;
+    }
+    
+    .search input {
+        width: 30vw;
+        height: 20px;
+        border-radius: 3px;
+        margin: 0 10px 0 120px;
+        padding: 0 12px;
+    }
+    
+    img {
+        margin: auto;
+        width: 80vw;
+        display: flex;
+        margin: 12px auto;
+    }
+    /* 
+.card h2 {
+    font-family: 'Bebas Neue', cursive;
+} */
+    
+    .card {
+        max-width: 90vw;
+        margin: auto;
+        font-family: 'Bebas Neue', cursive;
+    }
+    
+    .card-item {
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 183px;
+        margin: 0 15px;
+    }
+    
+    .cards {
+        display: flex;
+        flex-wrap: row;
+        overflow: scroll;
+        /* justify-content: center; */
+    }
+    
+    .card-item img {
+        width: 200px;
+    }
+    
+    .container {
+        min-height: calc(100vh - 10vh - 12vh);
+    }
+    
+    .btn:hover {
+        color: rgb(52, 59, 59);
+        font-weight: 900;
+    }
+    
+    .search button {
+        font-family: 'Scheherazade New', serif;
+    }
+    
+    footer {
+        height: 12vh;
+        background-color: var(--main-bg-color);
+        /* background-color: black; */
+        color: white;
+        font-family: 'Scheherazade New', serif;
+    }
